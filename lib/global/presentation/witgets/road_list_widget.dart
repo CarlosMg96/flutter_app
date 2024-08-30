@@ -8,7 +8,7 @@ class RoadListWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Roads'),
+        title: Text('Carreteras Méxicanas'),
       ),
       body: BlocBuilder<RoadCubit, RoadState>(
         builder: (context, state) {
